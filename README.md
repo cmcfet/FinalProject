@@ -1,5 +1,3 @@
-# GC-Data Engineering Project
-
 
 
 ## Getting started
