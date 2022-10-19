@@ -13,7 +13,7 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/mobibootcamp/gc-data-engineering-project.git
+git remote add origin 'your-current-project-gitlab-url'
 git branch -M main
 git push -uf origin main
 ```
