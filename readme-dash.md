@@ -24,10 +24,15 @@ This will create a directory 'dash-gcp-template' and will download all the files
 
 	python3 main.py
 
+After the above step, you can see your app running at port 8080 by clicking on Web Preview icon on the cloud console.
 
 6. To deploy to GCP, select the project to which you want to deploy through the dropdown box in the Google cloud console terminal and then run the below command:
 
 	gcloud app deploy
+
+Once deployed your project URL is displayed which you can invoke to see your application on GCP. You can now send this link to anyone who wishes to see your project
+
+The above steps are high level. You may have to follow the GCP prompts for login, enabling certain API permissions for the project etc..
 
 # Selenimum references
 * https://selenium-python.readthedocs.io/installation.html
