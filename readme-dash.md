@@ -10,18 +10,22 @@
 
 	source myenv/bin/activate
 
-3. In the home directory make a folder called 'myapp' and drop the files contained in this zip file in that folder
+3. You can download the files in this repository using the download button given above. 
+In the home directory make a folder called 'dash-gcp-template' and drop the files extracted from the downlaoded zip file into 'dash-gcp-template'
+Alternative; You can also clone your repository using git using the command from the home directory
+`git clone https://gitlab.com/mobibootcamp/dash-gcp-template.git' 
+This will create a directory 'dash-gcp-template' and will download all the files from the git repository
 
 4. Cd to home directory and run the below command
 
-	pip install -r ./myapp/requirements.txt
+	pip install -r ./dash-gcp-template/requirements.txt
 
-5. After all the packages are downloaded, start the app using the command below:
+5. After all the packages are downloaded, cd to 'dash-gcp-template' folder start the app using the command below:
 
 	python3 main.py
 
 
-6. To deploy to GCP, select the project to which you want to deploy through the dropdown box in the terminal and then run the below command:
+6. To deploy to GCP, select the project to which you want to deploy through the dropdown box in the Google cloud console terminal and then run the below command:
 
 	gcloud app deploy
 
