@@ -27,7 +27,7 @@ This will create a directory 'dash-gcp-template' and will download all the files
 
 	`python3 main.py`
 
-After the above step, you can see your app running at port 8080 by clicking on Web Preview icon on the cloud console.
+After the above step, you can see your app running at port 8080 by clicking on Web Preview icon on the cloud console. To stop this app, go to your google cloud shell terminal and press Crtl+C. This will shutdown your Dash app on your cloud shell
 
 6. To deploy to GCP, select the project to which you want to deploy through the dropdown box in the Google cloud shell terminal and then run the below command:
 
