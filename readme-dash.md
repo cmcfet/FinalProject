@@ -13,7 +13,7 @@
 3. You can download the files in this repository using the download button given on the project homepage: https://gitlab.com/mobibootcamp/dash-gcp-template 
 In the home directory of your google cloud shell, make a folder called 'dash-gcp-template' and upload the extracted files from the zip file into 'dash-gcp-template'. You will find the upload button in the top navigation bar of the Google Cloud shell terminal in the 'more' icon.
 
-Alternative; You can also clone your repository using git using the command from the home directory
+Alternative; You can also clone your repository from the home directory, using git, with the command given below:
 
 `git clone https://gitlab.com/mobibootcamp/dash-gcp-template.git`
 
