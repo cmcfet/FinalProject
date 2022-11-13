@@ -40,7 +40,7 @@ The above steps are high level. You may have to follow the GCP prompts for login
 A few more things to note:
 1. If you installed any new libraries using pip, be sure to add that library in requirements.txt file.
 2. For datafiles, upload the files into your project folder and use relative paths to access your files. e.g., if you created a folder called 'data' in your project root and uploaded your 'my-data.csv' file into this folder, then you can create a dataframe using `df = pd.read_csv('data/my-data.csv')`
-3. Dash works well with ploty-express library only. Seaborn and Matplotlib figures need some extra steps before they can be displayed on Dash. Refer: https://stackoverflow.com/questions/38061267/matplotlib-graphic-image-to-base64
+3. Dash works well with ploty-express library only. Seaborn and Matplotlib figures need some extra steps before they can be displayed on Dash. Refer: https://stackoverflow.com/questions/49851280/showing-a-simple-matplotlib-plot-in-plotly-dash
  So I would highly encourage you to only use Plotly-express module for this assignment
  4. You can edit your project files using the 'Open Editor' button on the top navigation bar of your google cloud shell terminal
 
