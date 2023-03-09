@@ -9,7 +9,6 @@ import pandas as pd
 app = dash.Dash(__name__)
 server = app.server
 
-# assume you have a "long-form" data frame
 # see https://plotly.com/python/px-arguments/ for more options
 df = pd.DataFrame({
     "Fruit": ["Apples", "Oranges", "Bananas", "Apples", "Oranges", "Bananas"],
