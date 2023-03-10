@@ -24,11 +24,11 @@ fig2 = px.scatter(df2, x="gdp per capita", y="life expectancy",
                  size="population", color="continent", hover_name="country",
                  log_x=True, size_max=60)
 
-app.layout = html.Div(children=[
-    html.H1(children='Hello Dash'),
+app.layout = html.Div([
+    html.H1('Hello Dash'),
 
-    html.Div(children='''
-        Dash: A web application framework for your data.
+    html.Div('''
+        Dash: A web application framework for your data. 
     '''),
 
     dcc.Graph(
@@ -36,7 +36,7 @@ app.layout = html.Div(children=[
         figure=fig
     ),
 
-    html.Div(children='''
+    html.Div('''
         Dash: Another example for chart
     '''),
 
